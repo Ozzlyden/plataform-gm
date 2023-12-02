@@ -3,7 +3,15 @@
   "resourceVersion": "1.6",
   "name": "plataform_gm",
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":3,},
+    {"id":{"name":"spr_enemy1","path":"sprites/spr_enemy1/spr_enemy1.yy",},"order":5,},
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"spr_floor1","path":"sprites/spr_floor1/spr_floor1.yy",},"order":1,},
+    {"id":{"name":"spr_princess","path":"sprites/spr_princess/spr_princess.yy",},"order":6,},
+    {"id":{"name":"spr_coins","path":"sprites/spr_coins/spr_coins.yy",},"order":7,},
+    {"id":{"name":"spr_floor2","path":"sprites/spr_floor2/spr_floor2.yy",},"order":2,},
+    {"id":{"name":"spr_chest","path":"sprites/spr_chest/spr_chest.yy",},"order":4,},
+    {"id":{"name":"rm_01","path":"rooms/rm_01/rm_01.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Android","path":"options/android/options_android.yy",},
@@ -22,7 +30,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_01","path":"rooms/rm_01/rm_01.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":1,},
