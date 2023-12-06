@@ -4,5 +4,13 @@
 // Var GM
 image_speed = 0.1;
 
-// Var propria
 spd = 4;
+gravt = 0.4;
+spdFall = 2;
+maxSpdFall = 8;
+
+jump = false;
+spdJump = 8;
+
+jumpHeight = 100;
+jumpFrames = 0;

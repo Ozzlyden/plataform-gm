@@ -6,7 +6,7 @@
     "name": "spr_floor2",
     "path": "sprites/spr_floor2/spr_floor2.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
