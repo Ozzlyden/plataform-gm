@@ -1,7 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-// Aplicar movimentação horizontal
+// SISTEMA DE MOVIMENTACAO 
 if(keyboard_check(ord("D")) && place_free(x+spd, y)){
 	x+=spd;
 	image_xscale = 1;
@@ -32,7 +32,7 @@ if(jump){
 }
 
 
-// Queda
+// QUEDA
 if(jump == false){
 if(place_free(x,y+spdFall)){
 	y+=spdFall;
@@ -46,4 +46,20 @@ if(place_free(x,y+spdFall)){
 		y++;
 	}
 }
+}
+
+// SISTEMA DE TIRO
+if(keyboard_check_pressed(ord("X"))){
+	var obj = instance_create_depth(x,y,-10,obj_bullet);
+	obj.dir = image_xscale;
+}
+
+// SISTEMA DE DANO COM ENEMY
+if(place_meeting(x,y,obj_enemy1)){
+	life--;
+	show_debug_message("Player perdendo vide");
+	show_debug_message(string(life));
+	if(life <= 0){
+		room_restart();
+	}
 }

@@ -11,6 +11,8 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":0,},
     {"id":{"name":"spr_floor1","path":"sprites/spr_floor1/spr_floor1.yy",},"order":1,},
     {"id":{"name":"spr_princess","path":"sprites/spr_princess/spr_princess.yy",},"order":6,},
+    {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":8,},
+    {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":7,},
     {"id":{"name":"spr_coins","path":"sprites/spr_coins/spr_coins.yy",},"order":7,},
     {"id":{"name":"obj_chest","path":"objects/obj_chest/obj_chest.yy",},"order":5,},
     {"id":{"name":"obj_floor1","path":"objects/obj_floor1/obj_floor1.yy",},"order":1,},

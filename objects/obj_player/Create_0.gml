@@ -14,3 +14,5 @@ spdJump = 8;
 
 jumpHeight = 100;
 jumpFrames = 0;
+
+life = 10;
